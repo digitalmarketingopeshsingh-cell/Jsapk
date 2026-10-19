@@ -1,0 +1,24 @@
+name: kid_balloon_pop
+description: "Kid-friendly Balloon Pop game with COPPA Child-Directed Google AdMob integration."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_mobile_ads: ^5.1.0 # Official AdMob SDK
+  audioplayers: ^6.0.0     # Sound effects
+  confetti: ^0.7.0         # Reward particle celebration
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/sounds/
